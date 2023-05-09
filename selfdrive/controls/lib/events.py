@@ -362,7 +362,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, AlertCallbackType]]] = {
   },
 
   EventName.startup: {
-    ET.PERMANENT: StartupAlert(_("San ka punta, the the moon"))
+    ET.PERMANENT: StartupAlert(_("San ka punta, to the moon"))
   },
 
   EventName.startupMaster: {
